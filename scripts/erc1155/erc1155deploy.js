@@ -7,20 +7,20 @@ async function main() {
 
   // Rest of your code
   const acc = await hre.reef.getSignerByName(signerName);
-  const TestNFT721 = await hre.reef.getContractFactory("TestNFT721", acc);
+  const TestNFT1155 = await hre.reef.getContractFactory("TestNFT1155", acc);
   //const args = [1000000];
   //const nft721 = await TestNFT721.deploy(...args);
-  const nft721 = await TestNFT721.deploy();
-  await nft721.deployed();
+  const nft1155 = await TestNFT1155.deploy();
+  await nft1155.deployed();
   console.log("Deploy done");
   console.log({
-    nft721: nft721.address,
+    nft1155: nft1155.address,
   });
   console.log({
-    name: await nft721.name(),
+    //name: await nft1155.name(),
     //initialBalance: await nft721.totalSupply(),
   });
-  await hre.reef.verifyContract(nft721.address, "TestNFT721", []);
+  await hre.reef.verifyContract(nft1155.address, "TestNFT1155", []);
 }
 
 // Execute the main function
