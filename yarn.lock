@@ -2976,7 +2976,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@reef-defi/hardhat-reef@npm:^1.0.13":
+"@reef-defi/hardhat-reef@npm:latest":
   version: 1.0.13
   resolution: "@reef-defi/hardhat-reef@npm:1.0.13"
   dependencies:
@@ -9642,7 +9642,7 @@ __metadata:
     "@nomiclabs/hardhat-ethers": ^2.0.2
     "@nomiclabs/hardhat-waffle": ^2.0.1
     "@openzeppelin/contracts": 4.4.0
-    "@reef-defi/hardhat-reef": ^1.0.13
+    "@reef-defi/hardhat-reef": latest
     axios: ^0.27.2
     chai: ^4.3.4
     dotenv: ^16.0.0
