@@ -14,5 +14,5 @@
     "axios": "^0.27.2",
     "dotenv": "^16.0.0"
   },
-  "packageManager": "yarn@3.6.2"
+  "packageManager": "yarn@3.6.3"
 }
